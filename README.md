@@ -49,6 +49,12 @@ OPENAI_API_KEY=your_api_key_here
 
 ## Usage
 
+### Start API
+
+```bash
+uvicorn index:app --reload
+```
+
 ### Python Agent
 
 ```bash
