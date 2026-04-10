@@ -45,9 +45,19 @@ Or create a `.env` file:
 
 ```
 OPENAI_API_KEY=your_api_key_here
+API_KEY=
+REDIS_URI=redis://localhost:6381
+CACHE_TTL= # 60 seconds equal 1 minute
+DISTANCE_SEMANTIC_CACHE= # 0.0 exact match and 1 not equal
 ```
 
 ## Usage
+
+### Run Redis on docker container
+
+```bash
+docker-compose up -d
+```
 
 ### Start API
 
